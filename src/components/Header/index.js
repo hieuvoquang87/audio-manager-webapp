@@ -21,9 +21,6 @@ export class Header extends Component {
                 <Link to="/home" activeClassName="active">
                   Home
                 </Link>
-                <Link to="/list" activeClassName="active">
-                  Redux
-                </Link>
               </nav>
             </div>
 

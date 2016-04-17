@@ -20,6 +20,10 @@ app.use(require('morgan')('short'));
   app.use(express.static(__dirname + '/'));
 })();
 
+app.get('/data', function (req, res) {
+
+});
+
 app.get(/.*/, function root(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
@@ -30,3 +34,24 @@ server.listen(process.env.PORT || 3000, function onListen() {
   console.log('Listening on: %j', address);
   console.log(' -> that probably means: http://localhost:%d', address.port);
 });
+
+/*
+Response data
+  [{
+    mediaSetId: number,
+    mediaSetName: string,
+    childrenMediaSet: [],
+    parentMediaSet: [],
+    mediaItems: [
+      {
+
+      },{
+
+      }
+    ]
+  },{
+
+  }]
+
+
+*/

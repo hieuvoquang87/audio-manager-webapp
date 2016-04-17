@@ -3,8 +3,9 @@
 :local(.styles) {
   position: relative;
 
-  background: url(files/nyc.jpg);
+  background: url(files/lost_maple.jpg);
   background-size: 100% auto;
+  background-position: 50% 25%;
 
   height: 500px;
 
@@ -12,8 +13,8 @@
     height: 340px;
   }
 
-  @media (#{ $phone }) {
-    height: 320px;
+  @media (#{ $phone}) {
+    height: 280px;
   }
 
   h1.title {

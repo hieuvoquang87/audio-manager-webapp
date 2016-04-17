@@ -98,10 +98,12 @@
   },
   "dependencies": {
     "jquery": "^2.2.0",
+    "normalizr": "^2.0.1",
     "react": "^0.14.6",
     "react-redux": "^4.0.6",
     "react-router": "^2.0.0-rc5",
     "react-router-redux": "^4.0.0-rc.2",
+    "rebass": "^0.2.6",
     "redux": "^3.1.4",
     "scroll-behavior": "^0.3.4"
   }
