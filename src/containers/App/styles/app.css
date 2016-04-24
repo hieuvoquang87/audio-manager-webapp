@@ -1,0 +1,47 @@
+/* global styles */
+/* 
+  Fonts
+*/
+@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&subset=latin,cyrillic-ext);
+/* Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300; }
+
+p {
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none !important; }
+
+:global(body) {
+  position: relative; }
+  :global(body) h1 {
+    margin-top: 80px; }
+  :global(body) h2 {
+    margin-bottom: 20px; }
+  :global(body) img {
+    width: 100%; }
+  :global(body) html {
+    background: #fff;
+    color: #000;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    font-stretch: condensed;
+    -webkit-font-smoothing: antialiased;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+
+/*# sourceMappingURL=app.css.map */
