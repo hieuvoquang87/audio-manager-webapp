@@ -18,6 +18,16 @@
           "id": 3,
           "url": "http://mp3.zing.vn/download/song/Nho-Ve-Em-Jimmii-Nguyen/knxmyknaSgLaNzpykFxtbHZm",
           "name": "Nhớ Về Em"
+        },
+        {
+          "id": 4,
+          "url": "http://mp3.zing.vn/download/song/Tinh-Tham-Duyen-Que-Manh-Dinh/ZHxHtZmadNpZiCByLDctFGkH",
+          "name": "Tình Thắm Duyên Quê"
+        },
+        {
+          "id": 5,
+          "url": "http://stream2.cache70.vcdn.vn/fsfsdfdsfdserwrwq3/105882ab47381b8bb9124d5e9ecec406/571c5603/2010/10/07/9/6/963c72bfc5156db4c0de68d63d28883e.mp3",
+          "name": "Liên Khúc 3 Miền"
         }
       ]
     },
@@ -26,9 +36,24 @@
       "name": "English Music",
       "mediaItems": [
         {
-          "id": 103,
+          "id": 101,
           "url": "http://mp3.zing.vn/download/song/I-Loved-Her-First-Heartland/LHcHyLmaBiCbCmLykFcyFHZm",
           "name": "I Loved Her First"
+        },
+        {
+          "id": 102,
+          "url": "http://stream2.cache70.vcdn.vn/fsfsdfdsfdserwrwq3/19a2a018596e4853dfd848902ab96aac/571c5470/2010/11/30/1/2/12d45c841509a99dd0d71d6646c926cc.mp3",
+          "name": "Hotel California"
+        },
+        {
+          "id": 103,
+          "url": "http://stream2.cache70.vcdn.vn/fsfsdfdsfdserwrwq3/2a2d2fbcd179487b7d0b5b68c766a331/571c56e5/2011/07/20/b/b/bbdc6e04f856741b25bfe75eced4edd4.mp3",
+          "name": "Love To Be Loved By You"
+        },
+        {
+          "id": 104,
+          "url": "http://stream2.s3.mp3.zdn.vn/fsfsdfdsfdserwrwq3/c5a54f7314eb53dd654b20360622a00c/571c579d/2010/11/13/6/3/63bf2504769f65967ca821ef7b3f86d9.mp3",
+          "name": "Can You Feel The Love Tonight"
         }
       ]
     }
