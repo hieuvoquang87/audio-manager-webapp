@@ -11,10 +11,7 @@
   .list-group-item:first-child {
     border-radius: 0px;
   }
-  .ani-collapse {
-    -moz-transition : height 5s;
-    -webkit-transition : height 5s;
-    -o-transition : height 5s;
-    transition : height 5s;
+  .selected-item{
+    background: #dddddd;
   }
 }

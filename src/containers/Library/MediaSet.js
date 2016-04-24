@@ -17,7 +17,8 @@ export class MediaSet extends Component {
     renderMediaItem(mediaItems) {
         return mediaItems.map((mediaItem) => {
             return (
-                <li key={mediaItem.id} className={`list-group-item ${this.state.isOpen? '': 'hidden'}`}
+                <li key={mediaItem.id}
+                    className={`list-group-item ${this.state.isOpen? '': 'hidden'} ${this.props.selectedMediaItem? (this.props.selectedMediaItem.id == mediaItem.id ? "selected-item": "") : ""}`}
                     onClick={() => this.onMediaItemSelected(mediaItem)}>
                     <h4 className="list-group-item-heading">{mediaItem.name}</h4>
                     <p className="list-group-item-text">{mediaItem.url}</p>

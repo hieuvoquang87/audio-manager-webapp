@@ -35,13 +35,16 @@ export default class ProgressBar extends Component {
             value = 100;
         }
         /*
-        * */
+         * */
         return (
             <div className="seek-bar">
-
-                <Slider value={value} onClick={this.handleSeekTrack.bind(this)}
-                        description={currentTime +"/"+ duration}
-                        style={{marginTop: 12, marginBottom: 12}}/>
+                <div className="audio-time">{currentTime} / {duration}</div>
+                <div className="sb-soundplayer-progress-container"
+                     onClick={this.handleSeekTrack.bind(this)}>
+                    <div className="sb-soundplayer-progress-inner" style={{width: (value*100) + '%'}}>
+                        <span className="progress-node"></span>
+                    </div>
+                </div>
             </div>);
     }
 }
