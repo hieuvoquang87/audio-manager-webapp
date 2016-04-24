@@ -21,7 +21,7 @@ app.use(require('morgan')('short'));
 })();
 
 app.get('/data', function (req, res) {
-
+  res.sendFile(__dirname + '/server/data.json');
 });
 
 app.get(/.*/, function root(req, res) {

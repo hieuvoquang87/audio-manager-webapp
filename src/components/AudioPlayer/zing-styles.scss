@@ -1,0 +1,63 @@
+:local(.zstyles) {
+  .zm-process-bar {
+    background: rgba(76, 76, 76, 0.3);
+    position: absolute;
+    bottom: 36px;
+    width: 100%;
+    height: 2px;
+    cursor: pointer
+  }
+
+  .zm-process-bar .zm-loaded {
+    background: rgba(76, 76, 76, 0.7);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+  }
+
+  .zm-process-bar .zm-buffer {
+    background: #721799;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+  }
+
+  .zm-process-bar .zm-buffer .zm-node {
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    position: absolute;
+    right: -4px;
+    margin-top: -5px;
+    margin-left: -8px;
+    display: none;
+    z-index: 9999
+  }
+
+  .zm-process-bar:hover {
+    height: 6px
+  }
+
+  .zm-process-bar:hover .zm-node {
+    display: block
+  }
+  .jp-progress {
+    overflow: hidden;
+    background-color: #ddd;
+  }
+  .jp-seek-bar {
+    width: 0px;
+    height: 100%;
+    cursor: pointer;
+  }
+  .jp-play-bar {
+    width: 0px;
+    height: 100%; }
+}

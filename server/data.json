@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "name": "Vietnamese Music",
+      "mediaItems": [
+        {
+          "id": 1,
+          "url": "http://mp3.zing.vn/download/song/Thuong-Hoai-Ngan-Nam-Huong-Lan/LHxmykmsAnvLzzByZDJybmZH",
+          "name": "Thương Hoài Ngàn Năm"
+        },
+        {
+          "id": 2,
+          "url": "http://mp3.zing.vn/download/song/Ve-Dau-Mai-Toc-Nguoi-Thuong-Quang-Le/kmcGyknszZsQczDyLFxyvHkH",
+          "name": "Về Đâu Mái Tóc Người Thương"
+        },
+        {
+          "id": 3,
+          "url": "http://mp3.zing.vn/download/song/Nho-Ve-Em-Jimmii-Nguyen/knxmyknaSgLaNzpykFxtbHZm",
+          "name": "Nhớ Về Em"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "English Music",
+      "mediaItems": [
+        {
+          "id": 3,
+          "url": "http://mp3.zing.vn/download/song/I-Loved-Her-First-Heartland/LHcHyLmaBiCbCmLykFcyFHZm",
+          "name": "I Loved Her First"
+        }
+      ]
+    }
+  ]
+}

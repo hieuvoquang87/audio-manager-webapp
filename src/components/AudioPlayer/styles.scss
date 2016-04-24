@@ -3,7 +3,6 @@
   $button-size: 40px;
 
   border: 1px solid $theme-color;
-  border-radius: 5px;
 
   .control-group {
     width: 100%;
@@ -12,9 +11,10 @@
   }
   .seek-bar {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 10px;
     display: inline-block;
+    div {
+      margin-bottom: 10px;
+    }
   }
   .audio-info {
     float: right;
@@ -22,7 +22,8 @@
     margin-top: 5px;
     width: 50%;
     height: 40px;
-    border: 1px solid $theme-color;
+    text-align: center;
+    font-size: large;
   }
   .audio-time {
     float: right;
@@ -77,5 +78,21 @@
     height: 100%;
     -webkit-transition: width .2s ease-in;
     transition: width .2s ease-in;
+  }
+
+  .progress-node {
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    position: absolute;
+    right: -4px;
+    margin-top: -5px;
+    margin-left: -8px;
+    z-index: 9999
   }
 }
